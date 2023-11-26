@@ -2,3 +2,5 @@
 monscript/.env
 venv/bin/activate
 uploads/*
+cado/*
+!cado/README.md
