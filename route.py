@@ -36,6 +36,9 @@ r"^/$":"Hello#hi"
     elif myroute.endswith("webp"):
         myProgram=Pic(myroute)
         return myProgram
+    elif myroute.endswith(".jpg"):
+        myProgram=Pic(myroute)
+        return myProgram
     elif myroute.endswith("png"):
         myProgram=Pic(myroute)
         return myProgram

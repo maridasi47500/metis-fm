@@ -7,7 +7,7 @@
 	text-align: left;
 }
 .wm-artist-title {
-	border-bottom: 1px solid red;
+	border-bottom: 1px solid yellow;
 	margin-bottom: 20px;
 }
 .wm-artist-title .fa {
@@ -23,7 +23,7 @@
         width:20px;
 }
 .wm-blog-heading {
-	color: red;
+	color: yellow;
 	border-bottom: 1px solid;
 	margin-bottom: 21px;
 	padding-bottom: 0px;
@@ -33,7 +33,7 @@
 	margin-bottom: 0px;
 }
 .wm-simple-facny-title {
-	color: red;
+	color: yellow;
 }
 .wm-recent-releases-text time {
 	float:left;
@@ -41,7 +41,7 @@
 .wm-recent-releases-text a:link, .wm-recent-releases-text a:visited {
 	font-size: 20px;
 	text-decoration: none;
-	color: red;
+	color: yellow;
 }
 
 
@@ -58,5 +58,5 @@
 	width: 100%;
 }
 .sub{
-background-color:red;
+background-color:yellow;
 }

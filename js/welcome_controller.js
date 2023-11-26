@@ -1,3 +1,8 @@
+
+window.onload=function(){
+const myCarouselElement = new bootstrap.Carousel('#carouselExampleIndicators');
+
+};
 function randomChar(){
 var index=Math.floor(Math.random() * 62);
 if (index < 10){
@@ -27,6 +32,7 @@ function off() {
   document.getElementById("overlay").style.display = "none";
 } 
 $(function(){
+
 	$(".closemenu").click(function(e){
         e.preventDefault();
         e.stopPropagation();
@@ -114,6 +120,10 @@ console.log("heure de passage ")
 		posSlider.max= audio1.duration; posSlider.setAttribute('min', 0);
                 //console.log(minduration);
                 audio1.currentTime = 0;
+                   if (!audio1.paused){
+                    audio1.pause();
+                   }
+
                 audio1.play();
                 $(".precedent").html("<h6>précédente</h6><span>"+(mydata.song.artist_prec|| "")+"</span><span>"+(mydata.song.title_prec|| "")+"</span>");
                 $(".encours").html("<h6>Maintenant</h6><span>"+(mydata.song.artist|| "")+"</span><span>"+(mydata.song.title|| "")+"</span>");
@@ -148,6 +158,9 @@ console.log("heure de passage ")
 	};
         paspremier=true;
         }
+                   if (!audio.paused){
+                    audio1.pause();
+                   }
                     audio1.play();
 			goBut.src = pausePic;
                             }else{

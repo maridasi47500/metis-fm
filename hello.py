@@ -11,7 +11,7 @@ from myrecording import Myrecording
 class Hello(Myfunc):
   def __init__(self,path):
     self.path=path
-    self.title="my thrift shop"
+    self.title="Métis FM - "
     self.figure=Render(self.title)
     self.recparams=["name","image","price","date"]
   def mycss(self,param):

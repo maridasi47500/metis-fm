@@ -2,7 +2,7 @@
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
- * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * Any CSS (and SCSS, if configuyellow) file within this directory, lib/assets/stylesheets, or any plugin's
  * vendor/assets/stylesheets directory can be referenced here using a relative path.
  *
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
@@ -15,7 +15,7 @@
  */
 .navbar-toggler.ijijijkijiji, .navbar-toggler.ijijijkijiji:link, .navbar-toggler.ijijijkijijii:visited, .navbar-toggler.ijijijkijiji:active, .navbar-toggler.ijijijkijiji, .navbar-toggler.ijijijkijiji:active:focus {
 	display: block;
-	color: red;
+	color: yellow;
 	border: 0px solid black;
 	font-size: 30px;
 	font-weight: 900;
@@ -107,7 +107,7 @@
     }
 }
 .closemenu {
-	color: red;
+	color: yellow;
 	font-size: 20px;
 	font-weight: 900;
 	float: right;
@@ -138,7 +138,7 @@ input:checked + .sub > li {
 input:checked + .sub > li {
     padding: 0.7em 1em
     height: 1.4em
-	background: red;
+	background: yellow;
 	color: white;
     opacity: 1
 }
@@ -148,7 +148,7 @@ label  {
 	color: white;
 }
 label span {
-	background: red;
+	background: yellow;
 	color: white;
 	font-weight: 900;
 	border-radius: 999999999px;
@@ -166,7 +166,7 @@ label span {
 	background: #AA4A44;
 }
 #trapeze {
-	border-top: 100px solid red;
+	border-top: 100px solid yellow;
 	border-left: 0px solid transparent;
 	border-right: 25px solid transparent;
 	width: 840px;
@@ -234,7 +234,7 @@ label span {
 	display:flex;
 	justify-content: space-around;
 	align-items: center;
-	background-color:red;
+	background-color:yellow;
 }
 
 .slider {
@@ -282,7 +282,7 @@ h4:before, h4:after {
      margin: auto;
 }
 .mybreadcrumb {
-	background: red;
+	background: yellow;
 	margin: 50px;
 	padding: 10px;
 	text-align: center;
@@ -325,7 +325,7 @@ ul.mybreadcrumb {
     display:inline;
 }
 .dialog {
-	color: red;
+	color: yellow;
 	font-size: 20px;
 	text-align: center;
 }
@@ -336,7 +336,7 @@ ul.mybreadcrumb {
 	float: left;
 }
 .mytitle a, .mytitle a:visited, .mytitle a:link, .mytitle a:hover {
-	color: red;
+	color: yellow;
 	text-decoration: none;
 	font-size: 20px;
 	float: left;
@@ -349,7 +349,7 @@ ul.mybreadcrumb {
 }
 .wm-album-options a {
 	text-decoration: none;
-	background: red;
+	background: yellow;
 	color: white;
 	padding: 5px;
 }
@@ -399,7 +399,7 @@ p.mytext {
 @keyframes slideIn {
   0% {
     transform: translateX(0px) rotate(0deg);
-    color: red;
+    color: yellow;
     display:block;
   }
   100% {
@@ -422,7 +422,7 @@ p.mytext {
 }
 .col-xs-12.col-md-7.item-teaser h2 {
 	font-size: 20px;
-        color:red;
+        color:yellow;
 }
 .wm-page-heading.text-left {
 	color: #555;
@@ -438,7 +438,7 @@ p.mytext {
     list-style-type: none;
 }
 .wm-main-section.wm-contact-us-home {
-	background: red;
+	background: yellow;
 	list-style-type: none;
 	font-size: 20px;
 	color: white;
@@ -466,7 +466,7 @@ p.mytext {
 	margin: 10px;
 	line-height: 30px;
 	width: 92px;
-	color: red;
+	color: yellow;
 	text-align: center;
 }
 .wm-footer-spot-section {
@@ -490,8 +490,8 @@ p.mytext {
 	box-sizing: border-box;
 	/* float: left; */
 	position: relative;
-	background: red;
-	border: red;
+	background: yellow;
+	border: yellow;
 	color: white;
 	padding: 10px;
 	text-transform: uppercase;
